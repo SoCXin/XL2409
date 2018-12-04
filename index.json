@@ -1,0 +1,37 @@
+{
+    "type":"SoC",
+    "name":"XL2409",
+    "title": "xinlinggo XL2409 SoC",
+    "description":"xinlinggo 2.4GHz SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":48,
+        "DMIPS": 48,
+        "CoreMark": 70
+    },
+    "manufacturer": {
+        "vendor":"xinlinggo",
+        "homepage":"https://www.xinlinggo.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/XL2409.git"
+    },
+    "version":"1.0.0",
+    "series":["XL2409"],
+    "package":["QFN32"],
+    "peripheral": ["CAN","ADC","USART","SPI","I2C"],
+    "temp": [-40,105],
+    "volt": [2.4,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "xinlinggo",
+        "CAN","ADC","I2C","SPI","USART"
+    ]
+}
+
