@@ -12,6 +12,8 @@ Debug
 ~*
 .settings
 output
+*.rar
+XL32F003开发包*
 # .mxproject
 # Change*
 # CHANGE*

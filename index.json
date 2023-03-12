@@ -19,7 +19,7 @@
         "url": "https://github.com/SoCXin/XL2409.git"
     },
     "version":"1.0.0",
-    "series":["XL2409"],
+    "series":["XL2409","XL32F003"],
     "package":["QFN32"],
     "peripheral": ["CAN","ADC","USART","SPI","I2C"],
     "temp": [-40,105],
